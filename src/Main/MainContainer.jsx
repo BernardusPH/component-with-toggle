@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import Card from '../Card/Card.jsx';
-import Button from './button.jsx';
+import Button from './Button.jsx';
 import CardInfo from './CardInfo.jsx';
 import "./MainContainer.css"
 const MainContainer = () => {
