@@ -12,7 +12,7 @@ function buttonHandle(){
             </div>
 
             <div className='button-container' onClick={buttonHandle}>
-                <button className={`button ${(props.cashSwitch)?"monthly":"annually"}`}></button>
+                <button aria-label='ball-button' className={`button ${(props.cashSwitch)?"monthly":"annually"}`}></button>
             </div>
 
             <div>
