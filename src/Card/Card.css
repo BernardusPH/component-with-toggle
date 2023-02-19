@@ -1,0 +1,35 @@
+.card {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    width: clamp(360px, 100%, 380px);
+ 
+}
+
+
+.white {
+    background-color: white;
+    color: var(--Dark-Grayish-Blue);
+}
+
+
+.blue {
+    
+    background-image: linear-gradient(to bottom, var(--Linear-Gradient1), var(--Linear-Gradient2));
+    color: var(--Very-Light-Grayish-Blue);
+    
+}
+
+
+@media(min-width:970px){
+    .card{
+        width: 370px ;
+    }
+    .blue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:550px;
+        width: 380px
+    } 
+}

@@ -1,0 +1,26 @@
+main{
+    width: clamp(360px,90%,450px);
+    margin-bottom: 2rem;
+}
+
+.card-flex{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+
+@media(min-width:970px){
+    main{
+        width: clamp(970px,95%,1440px);
+    } 
+    .card-flex{
+        margin-top: 6rem;
+        flex-direction: row;
+        gap: 0;
+    }
+}

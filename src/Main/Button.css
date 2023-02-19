@@ -1,0 +1,49 @@
+.ann-mon-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: 0 auto 2rem auto;
+    align-items: center;
+    color: var(--Light-Grayish-Blue);
+
+}
+
+.button-container {
+    width: 65px;
+    height: 38px;
+    border-radius: 40px;
+    position: relative;
+    background: linear-gradient(to right, var(--Linear-Gradient1), var(--Linear-Gradient2));
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.button-container:hover {
+    opacity: .6;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    transition: all .2s ease-in;
+}
+
+button:focus-within {
+    outline: 1px solid black;
+}
+
+
+.monthly {
+    left: 48%;
+}
+
+.annually {
+    left: 2%;
+}

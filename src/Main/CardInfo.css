@@ -1,0 +1,67 @@
+.card-info {
+    height: 400px !important;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+
+.money {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dollar-sign {
+    font-size: 2.5rem;
+}
+
+hr {
+    margin: 1rem 0;
+    opacity: .8;
+}
+
+.card-info button {
+    width: 100%;
+    padding: .9rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    transition: all .2s ease-out;
+    cursor: pointer;
+
+
+}
+
+.white button {
+    background: linear-gradient(to right, var(--Linear-Gradient1), var(--Linear-Gradient2));
+    color: white;
+}
+
+.blue {
+    background-color: white;
+}
+
+.blue button {
+    color: var(--Linear-Gradient2);
+}
+
+.white button:hover {
+    opacity: .8;
+    background: none;
+    color: var(--Linear-Gradient2);
+    outline: 2px solid var(--Linear-Gradient2);
+}
+
+.blue button:hover {
+    opacity: .8;
+    color: white;
+    background-color: transparent;
+    outline: 2px solid white;
+}
